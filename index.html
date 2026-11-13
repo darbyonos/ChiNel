@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5.0" name="viewport"/>
+<title>ChiNel Unisex Salon &amp; Academy | Look Good. Feel Good. Be You.</title>
+<!-- Typography & Google Icons -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link rel="stylesheet" href="index.css">
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Syne:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Comprehensive Handcrafted Pure CSS Architecture with Complete Responsive System -->
+
+</head>
+<body>
+<!-- Backdrop Overlay for Mobile Nav -->
+<div class="mobile-drawer-overlay" id="drawer-overlay" onclick="closeMobileNav()"></div>
+<!-- Sticky Top Header -->
+<header class="site-header">
+<div class="header-inner">
+<div class="brand-logo-wrap">
+<img alt="ChiNel Logo" class="brand-logo-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaXR0Qyxq4xG9pdaRvADyzoKYcCVxmmUTz55dIpbwkRPNr5irxYzaZkRI8iAE3np8y5TDf3NwBqqVhtJiKBQNte3ovMcNYfYOWSCSZ2Qu_Tr2tHxNjuNekjaZeZyBbzdBaSVeipu7neP6XZapejxmNbbPPUBdq_You89TyjRFEX_WRtMBUHjL1W0sKpGai3Rov2SB_SmJjfYh2q0q3rMe8sc7gwWIG6CpQ3-Uihokg0lXyKdVJ4ozb"/>
+<a class="brand-link" href="#">
+<span class="brand-title">ChiNel</span>
+<span class="brand-subtitle">Unisex Salon</span>
+</a>
+</div>
+<nav>
+<ul class="nav-links" id="main-navigation">
+<li><a class="nav-link active" href="#" onclick="closeMobileNav()">Home</a></li>
+<li><a class="nav-link" href="#about" onclick="closeMobileNav()">About</a></li>
+<li><a class="nav-link" href="#services" onclick="closeMobileNav()">Services</a></li>
+<li><a class="nav-link" href="#training" onclick="closeMobileNav()">Training</a></li>
+<li><a class="nav-link" href="#gallery" onclick="closeMobileNav()">Gallery</a></li>
+<li><a class="nav-link" href="#contact" onclick="closeMobileNav()">Contact</a></li>
+<!-- Mobile CTA shown only within drawer -->
+<li class="nav-mobile-cta" style="display: none;">
+<a class="btn-primary" href="#appointment-booking" onclick="closeMobileNav()" style="width: 100%;">
+<span class="material-symbols-outlined">calendar_today</span>
+            Book Appointment
+          </a>
+</li>
+</ul>
+</nav>
+<div class="header-actions">
+<a class="btn-header-cta" href="#appointment-booking">Book Appointment</a>
+<div class="user-avatar-badge" title="User Account">
+<span class="material-symbols-outlined">person</span>
+</div>
+<button aria-expanded="false" aria-label="Toggle Navigation" class="menu-toggle-btn" id="nav-toggle" type="button">
+<span class="material-symbols-outlined" id="menu-icon">menu</span>
+</button>
+</div>
+</div>
+</header>
+<main style="padding-top: 76px;">
+<!-- 1. 7-Day Grand Opening Promo Countdown Banner -->
+<section class="promo-banner">
+<div class="container promo-inner">
+<div class="promo-left">
+<span class="promo-badge">
+<span class="pulse-dot"></span>
+          Exclusive Launch Promo
+        </span>
+<p class="promo-text">
+<span class="promo-highlight">GRAND OPENING SPECIAL</span> — Celebrate our opening with exclusive first-week offers!
+        </p>
+</div>
+<div class="promo-right-wrap">
+<div class="countdown-widget">
+<div class="countdown-unit">
+<span class="countdown-num" id="cd-days">07</span>
+<span class="countdown-label">DAYS</span>
+</div>
+<span class="countdown-divider">:</span>
+<div class="countdown-unit">
+<span class="countdown-num" id="cd-hours">22</span>
+<span class="countdown-label">HOURS</span>
+</div>
+<span class="countdown-divider">:</span>
+<div class="countdown-unit">
+<span class="countdown-num" id="cd-minutes">59</span>
+<span class="countdown-label">MIN</span>
+</div>
+<span class="countdown-divider">:</span>
+<div class="countdown-unit">
+<span class="countdown-num accent" id="cd-seconds">46</span>
+<span class="countdown-label">SEC</span>
+</div>
+</div>
+<a class="btn-claim-promo" href="#appointment-booking">Claim Launch Offer</a>
+</div>
+</div>
+</section>
+<!-- 2. Striking Hero Section -->
+<section class="hero-section">
+<div class="hero-ambient-aura"></div>
+<div class="hero-ambient-aura-gold"></div>
+<div class="container hero-grid">
+<div>
+<div class="hero-pill-badge">
+<span>Kaduna's Premier Unisex Sanctuary</span>
+<span class="hero-pill-indicator"></span>
+<span style="color: var(--color-text-muted);">Now Open in Narayi</span>
+</div>
+<h1 class="hero-title">
+          Look Good.<br/>
+<span class="hero-title-gradient">Feel Good.</span><br/>
+          Be You.
+        </h1>
+<p class="hero-description">
+          Professional beauty, couture hair styling, bespoke braids, flawless nails, and precision barbering tailored to accentuate your individual power and style.
+        </p>
+<div class="hero-cta-group">
+<a class="btn-primary" href="#appointment-booking">
+<span class="material-symbols-outlined">calendar_today</span>
+            Book an Appointment
+          </a>
+<a class="btn-secondary" href="#services">
+<span class="material-symbols-outlined">spa</span>
+            Explore Our Services
+          </a>
+</div>
+<div class="hero-metrics">
+<div>
+<div class="metric-value">100%</div>
+<div class="metric-label">Sanitized Equipment</div>
+</div>
+<div>
+<div class="metric-value accent-gold">5+</div>
+<div class="metric-label">Master Specialists</div>
+</div>
+<div>
+<div class="metric-value accent-magenta">Narayi</div>
+<div class="metric-label">Prime Highcost Hub</div>
+</div>
+</div>
+</div>
+<div class="hero-media-wrapper">
+<div class="hero-image-card">
+<img alt="High-end modern luxury unisex hair salon interior" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBQ8h8Tzjk1LEWg8bT1etkEs-KJi-XTthrJpTelrXL9lNpZPGIK0wMvClQFdhvG7ajM198X13-LV3mV0F52u37QTxF16tt0OmW6nmZGcF06IJ9j3vNOxrYvgsx-rCROnSHNdUb5GXA9dh1Fh8LjrleHHkE6as7qBERC7x8HVikPNK1HzUPJ8fJyTpZDws2jtMpIqPcuwr5-Pi2lWfnTPtjV4JBflxNxHqB2yBZh88EUcP_OWY5bwk9q"/>
+<div class="hero-floating-badge">
+<div class="floating-avatar-group">
+<div class="floating-avatar">
+<img alt="Stylist portrait" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcNPK-Z8s6ImrJ6XWlUzd39XMGjGaPO61j4fY2RYzMc-4PYSuPYmz_YcQVwIWyqKqPa7PYFDTdWoTIYsjoCSEpGicNCmIVvar2cQL-0UOF5u9kxoDZ4Gis9G2rjeSHFDc8SZsAFje-6U_VYYHdhPTKmyPsuPgVtbBLpr31wCV-C6CpRAQCIE81EGSyDP1HH-zOhwXc4EfsLogLnq0kezwmX5hIdBXMHpcsQoHOmq1Wp6Ef9Zo00K1n"/>
+<span class="live-status-dot"></span>
+</div>
+<div>
+<span class="floating-text-title">Walk-Ins &amp; Bookings</span>
+<span class="floating-text-status">
+<span class="material-symbols-outlined" style="font-size: 15px;">check_circle</span>
+                  Barbers &amp; Stylists Available
+                </span>
+</div>
+</div>
+<a aria-label="WhatsApp Us" class="floating-whatsapp-btn" href="https://wa.me/234706655909" target="_blank">
+<span class="material-symbols-outlined">chat</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. About ChiNel Section -->
+<section class="section-spacing about-section" id="about">
+<div class="container about-grid">
+<div class="about-media">
+<div class="about-img-box">
+<img alt="Chic modern salon workstation setup" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6QrBETglXCuEgz177r8zQj96l7ds9B8afO3fulHGa90gxppFteQepF26y9b-dug6ArlKLtZaaK5uhVU42hmST2NAMrhgltSRlzD7yY8sPlXKnmGkmPccz2635-LlBCRmb_u6AEhb4rMLcafoTsMPIWmDrwYDrReOjv13f-ZzE-8ocG1y469R37kf424j66B-eEAqGVHO-17hNYzD2p0Na3QibxI6bkKEgnF3RAqMFBB8caRBeWGsJ"/>
+</div>
+<div class="about-location-tag">
+<div class="location-tag-header">
+<span class="material-symbols-outlined">location_on</span>
+            Narayi, Kaduna
+          </div>
+<p class="location-tag-desc">Located right at Narayi Highcost, directly opposite Living Faith Church &amp; close to Ideal School.</p>
+</div>
+</div>
+<div>
+<span class="section-eyebrow">About Our Brand</span>
+<h2 class="section-title">Redefining Everyday Luxury for Everyone in Kaduna.</h2>
+<p class="about-lead">
+          At ChiNel Unisex Salon, we believe that self-care is not a privilege—it is an art form. Founded in the vibrant neighborhood of Narayi, near Ideal School, we bring runway-grade craftsmanship, clinical-level hygiene, and a warm, inclusive sanctuary together under one roof.
+        </p>
+<p class="about-lead">
+          Whether you require a flawless lace closure install, traditional artistic braids, a razor-sharp executive beard fade, or sculpted nail art, our team crafts every look with uncompromising precision and individualized warmth.
+        </p>
+<div class="pillars-grid">
+<div class="pillar-card">
+<div class="pillar-icon-box icon-box-magenta">
+<span class="material-symbols-outlined">verified</span>
+</div>
+<div>
+<h3 class="pillar-title">Professional Service</h3>
+<p class="pillar-desc">Punctual slots and consultation-first styling.</p>
+</div>
+</div>
+<div class="pillar-card">
+<div class="pillar-icon-box icon-box-gold">
+<span class="material-symbols-outlined">award_star</span>
+</div>
+<div>
+<h3 class="pillar-title">Skilled Specialists</h3>
+<p class="pillar-desc">Continuous academy-certified artists &amp; barbers.</p>
+</div>
+</div>
+<div class="pillar-card">
+<div class="pillar-icon-box icon-box-green">
+<span class="material-symbols-outlined">sanitizer</span>
+</div>
+<div>
+<h3 class="pillar-title">Clean Environment</h3>
+<p class="pillar-desc">Sterilized instruments &amp; spotless workstations.</p>
+</div>
+</div>
+<div class="pillar-card">
+<div class="pillar-icon-box icon-box-purple">
+<span class="material-symbols-outlined">sentiment_satisfied</span>
+</div>
+<div>
+<h3 class="pillar-title">Customer-Focused</h3>
+<p class="pillar-desc">Complimentary consultations &amp; refreshments.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Unisex Beauty & Grooming Menu -->
+<section class="section-spacing" id="services">
+<div class="container">
+<div class="services-header-row">
+<div>
+<span class="section-eyebrow" style="color: var(--color-gold);">Craftsmanship Portfolio</span>
+<h2 class="section-title">Unisex Beauty &amp; Grooming Menu</h2>
+</div>
+<p style="max-width: 440px; color: var(--color-text-muted);">
+          Carefully curated services for men, women, and teens. Every appointment begins with a personalized texture &amp; scalp consultation.
+        </p>
+</div>
+<div class="services-grid">
+<!-- Card 1: Hair Installation -->
+<div class="service-card">
+<div class="service-image-box">
+<img alt="Hair Installation" src="https://lh3.googleusercontent.com/aida/AEtjO1V6nnzaL0AddHdmbAZQV5CLMTl9xyLPyBtPrd8Hrv1n46nGo93oXlvPDmVxs-Re1FHbY1KGiyzRie_ZQuoAzptabzEd5VqrsvKE1mX-J7wN9d5Wx9KTZznZQAhRXyVWXkV75cxcj6YsCTDMJv6nKiVLUcksWLt9nhRGXNLbjT_Rvk9eruM44d8X1aXuPuosi03ougQPMZCkuSX0xHnZa4IRowtFl8EzeCFGWlY_x0BoGCPSqre91kn8cIM"/>
+<span class="service-tag">Signature</span>
+</div>
+<div class="service-body">
+<div>
+<h3 class="service-title">Hair Installation</h3>
+<p class="service-desc">Lace frontal melt, closures, custom wig fittings, revamping, and couture silk presses designed for natural longevity.</p>
+</div>
+<div class="service-foot">
+<span class="service-price">From ₦8,000</span>
+<a class="service-book-link" href="#appointment-booking" onclick="selectServiceInForm('Hair Installation')">
+                Book Now <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 2: Braids & Twists -->
+<div class="service-card">
+<div class="service-image-box">
+<img alt="Braiding and Twists" src="https://lh3.googleusercontent.com/aida/AEtjO1VxRKOJyrw3CCozwNLAwN9QZ3NmdeTlp0E7zuIDhtP6zHAALzSDW936H4wXOmiwmjPn5rtvmzg4fR75htgnoNE5_XjODbSOLjSXYEThGmBTOJyJsz-xVjfqyfdIoXwPAPH7QFMYSxEdu361i-CnyYx9o93LCe6rBPA5kG0u14i7UfHDb_yE0eZJN6gq4qkQOsoEGf459wjUP97BVLeRSg8DDp72ANHpi9J0kXAg5PUDr3jkEMmEX6ignA"/>
+<span class="service-tag" style="color: var(--color-green);">Artisanal</span>
+</div>
+<div class="service-body">
+<div>
+<h3 class="service-title">Braiding &amp; Twists</h3>
+<p class="service-desc">Knotless braids, boho locs, stitch cornrows, passion twists, and protective styling with gentle tension relief.</p>
+</div>
+<div class="service-foot">
+<span class="service-price">From ₦6,500</span>
+<a class="service-book-link" href="#appointment-booking" onclick="selectServiceInForm('Braiding &amp; Twists')">
+                Book Now <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 3: Barbering & Beard Care -->
+<div class="service-card">
+<div class="service-image-box">
+<img alt="Barbering and Beard Care" src="https://lh3.googleusercontent.com/aida/AEtjO1WTUFkfKJuU3oI88f_3s6kG_qfPRI6UdI1nYzHMdBidcGSp7qk8Lrzov8cAeG-4nSrRSY3IZ856M2GtftojfUhCY6JgRHvo9uaewAXk18x4aN2rtIxV7qqCTS__AbtFbqmGw6_3ngXdw1nYM9ngS7uCEarHSivPibMzrI8BP8JdEaKtcDILgNJ8pwyel6HztxyRwCH9q1IX3OqOWh6_ncrhGHxWBQ7pUfNx_oN3VAHLayHES4TKUArEdhA"/>
+<span class="service-tag">Precision</span>
+</div>
+<div class="service-body">
+<div>
+<h3 class="service-title">Barbering &amp; Beard Care</h3>
+<p class="service-desc">Razor-sharp low/mid/high fades, hot towel treatments, beard sculpting, dye enhancers, and soothing scalp massages.</p>
+</div>
+<div class="service-foot">
+<span class="service-price">From ₦3,500</span>
+<a class="service-book-link" href="#appointment-booking" onclick="selectServiceInForm('Barbering &amp; Beard Care')">
+                Book Now <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- Card 4: Nail Technology -->
+<div class="service-card">
+<div class="service-image-box">
+<img alt="Nail Services" src="https://lh3.googleusercontent.com/aida/AEtjO1UA9XJITagKUtLyp2J5E8zBiq9GVeImlhsNS982C36-gE4jjZFjbXxE0f7H-6UhIOu7qBbnQ74vv4Acw8qObYZgJKNoaRqvbgDAehj9Bs1bfeUJFAcz6VTSBVz1F6LpSRhoxBKI3iYmK1Fc3EdKnbRW_g3d_h_0yHQHcYOvkuzPP8DGF8ziSo0ZQ8cLzqdEMprnclNfIlzbw74BjT6NdoPtpjEv3xfd3JCSVyQ6C16mOKeCtawcm5gYbtw"/>
+<span class="service-tag" style="color: var(--color-magenta);">Couture</span>
+</div>
+<div class="service-body">
+<div>
+<h3 class="service-title">Nail Technology</h3>
+<p class="service-desc">Acrylic extensions, BIAB builder gel, Russian dry manicures, luxury spa pedicures, and bespoke hand-painted nail designs.</p>
+</div>
+<div class="service-foot">
+<span class="service-price">From ₦4,000</span>
+<a class="service-book-link" href="#appointment-booking" onclick="selectServiceInForm('Nail Technology')">
+                Book Now <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. 'Learn with ChiNel' Training Academy Section -->
+<section class="section-spacing academy-section" id="training">
+<div class="container">
+<div class="services-header-row">
+<div>
+<span class="section-eyebrow" style="color: var(--color-green);">
+<span class="material-symbols-outlined" style="font-size: 16px;">school</span>
+            ChiNel Beauty &amp; Barber Academy
+          </span>
+<h2 class="section-title">Turn Your Passion Into a High-Earning Skill</h2>
+</div>
+<p style="max-width: 440px; color: var(--color-text-muted);">
+          Learn real-world salon mastery from seasoned educators right here in Narayi. Practical hands-on training, industry certification, and business setup mentorship.
+        </p>
+</div>
+<div class="academy-track-grid">
+<div class="academy-card" onclick="selectAcademyTrack('Hair Styling &amp; Revamp')">
+<span class="material-symbols-outlined" style="color: var(--color-magenta); font-size: 28px;">content_cut</span>
+<div>
+<h4 class="academy-card-title">Hair Styling</h4>
+<span class="academy-card-action">I'm Interested →</span>
+</div>
+</div>
+<div class="academy-card" onclick="selectAcademyTrack('Braiding &amp; Protective Styles')">
+<span class="material-symbols-outlined" style="color: var(--color-gold); font-size: 28px;">texture</span>
+<div>
+<h4 class="academy-card-title">Braiding Masterclass</h4>
+<span class="academy-card-action">I'm Interested →</span>
+</div>
+</div>
+<div class="academy-card" onclick="selectAcademyTrack('Nail Technology &amp; Arts')">
+<span class="material-symbols-outlined" style="color: var(--color-magenta); font-size: 28px;">brush</span>
+<div>
+<h4 class="academy-card-title">Nail Technology</h4>
+<span class="academy-card-action">I'm Interested →</span>
+</div>
+</div>
+<div class="academy-card" onclick="selectAcademyTrack('Barbering &amp; Grooming')">
+<span class="material-symbols-outlined" style="color: var(--color-green); font-size: 28px;">content_cut</span>
+<div>
+<h4 class="academy-card-title">Professional Barbering</h4>
+<span class="academy-card-action">I'm Interested →</span>
+</div>
+</div>
+<div class="academy-card" onclick="selectAcademyTrack('Hair &amp; Wig Installation')">
+<span class="material-symbols-outlined" style="color: var(--color-gold); font-size: 28px;">face</span>
+<div>
+<h4 class="academy-card-title">Wig Installation</h4>
+<span class="academy-card-action">I'm Interested →</span>
+</div>
+</div>
+</div>
+<!-- Academy Registration & Enquiries Form -->
+<div class="academy-form-panel">
+<div class="form-header-wrap">
+<div>
+<h3 style="font-family: var(--font-display); font-size: clamp(1.25rem, 2.5vw, 1.55rem); color: #fff;">Academy Registration &amp; Enquiries</h3>
+<p style="color: var(--color-text-muted); font-size: 0.85rem; margin-top: 0.25rem;">Fill out this quick form. Our head instructor will contact you on WhatsApp with course outlines and pricing within 24 hours.</p>
+</div>
+<span class="cohort-badge">Next Cohort Starting Soon</span>
+</div>
+<form id="training-enquiry-form" onsubmit="handleTrainingSubmit(event)">
+<div class="form-grid-4">
+<div class="form-group">
+<label class="form-label" for="train-name">Full Name</label>
+<input class="form-input" id="train-name" placeholder="e.g. Samuel Audu" required="" type="text"/>
+</div>
+<div class="form-group">
+<label class="form-label" for="train-phone">Phone Number</label>
+<input class="form-input" id="train-phone" placeholder="070..." required="" type="tel"/>
+</div>
+<div class="form-group">
+<label class="form-label" for="train-whatsapp">WhatsApp Number</label>
+<input class="form-input" id="train-whatsapp" placeholder="e.g. 08012345678" required="" type="tel"/>
+</div>
+<div class="form-group">
+<label class="form-label" for="train-email">Email Address</label>
+<input class="form-input" id="train-email" placeholder="name@example.com" type="email"/>
+</div>
+<div class="form-group">
+<label class="form-label" for="train-track">Skill I Want to Learn</label>
+<select class="form-select" id="train-track" required="">
+<option disabled="" selected="" value="">Select a program track</option>
+<option value="Hair Styling &amp; Revamp">Hair Styling &amp; Revamp</option>
+<option value="Braiding &amp; Protective Styles">Braiding &amp; Protective Styles</option>
+<option value="Nail Technology &amp; Arts">Nail Technology &amp; Nail Art</option>
+<option value="Barbering &amp; Grooming">Professional Barbering</option>
+<option value="Hair &amp; Wig Installation">Hair &amp; Wig Installation</option>
+</select>
+</div>
+<div class="form-group">
+<label class="form-label" for="train-level">Experience Level</label>
+<select class="form-select" id="train-level" required="">
+<option value="Beginner">Total Beginner (No prior experience)</option>
+<option value="Some Experience">Some Experience (Seeking refinement)</option>
+<option value="Experienced">Experienced (Advanced Masterclass)</option>
+</select>
+</div>
+<div class="form-group">
+<label class="form-label" for="train-date">Preferred Start Month</label>
+<select class="form-select" id="train-date" required="">
+<option value="Immediate / This Month">Immediate / This Month</option>
+<option value="Next Month">Next Month</option>
+<option value="Weekend Only Batch">Weekend Only Batch</option>
+</select>
+</div>
+<div class="form-group" style="justify-content: flex-end;">
+<button class="btn-primary" id="training-submit-btn" style="height: 48px; width: 100%;" type="submit">
+<span class="material-symbols-outlined">school</span>
+                Submit Training Interest
+              </button>
+</div>
+</div>
+</form>
+<div class="feedback-box" id="training-feedback" style="display: none;">
+<span class="material-symbols-outlined" style="font-size: 28px;">task_alt</span>
+<span>Thank you! Your training enquiry has been received. Our team will contact you via WhatsApp / Call at <strong id="feedback-phone" style="color: #fff;"></strong> shortly with course fees and orientation dates.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. Appointment Booking & Direct WhatsApp Integration -->
+<section class="section-spacing" id="appointment-booking">
+<div class="container booking-grid">
+<div class="booking-info-box">
+<div>
+<span class="section-eyebrow">Direct Scheduling</span>
+<h2 class="section-title">Book Your Seat at ChiNel</h2>
+<p style="color: var(--color-text-muted);">
+            Skip the queue. Reserve your stylist or barber online. Our concierge confirms every booking promptly to guarantee dedicated service without delay.
+          </p>
+</div>
+<div class="whatsapp-direct-card">
+<div style="display: flex; align-items: center; gap: 1rem;">
+<div class="whatsapp-icon-bubble">
+<span class="material-symbols-outlined" style="font-size: 26px;">chat</span>
+</div>
+<div>
+<h4 style="font-weight: 700; color: #fff;">Prefer Fast WhatsApp Booking?</h4>
+<p style="font-size: 0.8rem; color: var(--color-text-muted);">Instant confirmation via our direct hotline line.</p>
+</div>
+</div>
+<a class="btn-whatsapp-hotline" href="https://wa.me/234706655909?text=Hello%20ChiNel%20Salon,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank">
+<span class="material-symbols-outlined">send</span>
+            Book via WhatsApp (0706655909)
+          </a>
+</div>
+<div class="booking-guarantees">
+<div class="guarantee-title">
+<span class="material-symbols-outlined">verified_user</span>
+            Salon Booking Guarantees
+          </div>
+<ul class="guarantee-list">
+<li><span class="material-symbols-outlined">check</span> Zero waiting time for confirmed slots</li>
+<li><span class="material-symbols-outlined">check</span> Complimentary scalp analysis with every wash</li>
+<li><span class="material-symbols-outlined">check</span> Clean private styling station with air conditioning</li>
+</ul>
+</div>
+</div>
+<!-- Right Side Form Panel -->
+<div class="booking-form-panel">
+<h3 style="font-family: var(--font-display); font-size: clamp(1.35rem, 2.5vw, 1.65rem); color: #fff; margin-bottom: 0.25rem;">Appointment Request Form</h3>
+<p style="color: var(--color-text-muted); font-size: 0.85rem; margin-bottom: 2rem;">Please submit your details below; our reception will call or WhatsApp you within 15 minutes to confirm availability.</p>
+<form id="appointment-form" onsubmit="handleAppointmentSubmit(event)">
+<div class="form-grid-2">
+<div class="form-group">
+<label class="form-label" for="book-name">Full Name *</label>
+<input class="form-input" id="book-name" placeholder="Your Name" required="" type="text"/>
+</div>
+<div class="form-group">
+<label class="form-label" for="book-phone">Phone / WhatsApp Number *</label>
+<input class="form-input" id="book-phone" placeholder="0706655909" required="" type="tel"/>
+</div>
+<div class="form-group">
+<label class="form-label" for="book-email">Email Address (Optional)</label>
+<input class="form-input" id="book-email" placeholder="client@gmail.com" type="email"/>
+</div>
+<div class="form-group">
+<label class="form-label" for="book-service">Select Service *</label>
+<select class="form-select" id="book-service" required="">
+<option disabled="" selected="" value="">Choose a service</option>
+<option value="Hair Installation">Hair Installation &amp; Styling</option>
+<option value="Braiding &amp; Twists">Braiding &amp; Twists</option>
+<option value="Barbering &amp; Beard Care">Barbering &amp; Precision Beard Trim</option>
+<option value="Nail Technology">Nails (Manicure / Pedicure / Acrylics)</option>
+<option value="Hair Treatment &amp; Washing">Hair Treatment &amp; Deep Conditioning</option>
+<option value="Full Unisex Combo">Full Unisex Combo (Hair + Nails + Grooming)</option>
+</select>
+</div>
+<div class="form-group">
+<label class="form-label" for="book-date">Preferred Date *</label>
+<input class="form-input" id="book-date" required="" type="date"/>
+</div>
+<div class="form-group">
+<label class="form-label" for="book-time">Preferred Time Slot *</label>
+<select class="form-select" id="book-time" required="">
+<option disabled="" selected="" value="">Select time</option>
+<option value="09:00 AM">09:00 AM - Morning Slot</option>
+<option value="11:00 AM">11:00 AM - Midday Slot</option>
+<option value="01:30 PM">01:30 PM - Afternoon Slot</option>
+<option value="04:00 PM">04:00 PM - Late Afternoon Slot</option>
+<option value="06:30 PM">06:30 PM - Evening Glow Slot</option>
+</select>
+</div>
+<div class="form-group col-span-full">
+<label class="form-label" for="book-request">Special Requests or Hair/Nail Specifications</label>
+<textarea class="form-textarea" id="book-request" placeholder="Tell us if you are bringing your own extensions, need frontal customization, or prefer a specific barber..." rows="3"></textarea>
+</div>
+<div class="col-span-full" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-top: 0.5rem;">
+<button class="btn-primary" style="min-width: 220px;" type="submit">
+<span class="material-symbols-outlined">calendar_add_on</span>
+                Request Appointment
+              </button>
+<span style="font-size: 0.8rem; color: var(--color-text-muted); display: flex; align-items: center; gap: 0.4rem;">
+<span class="material-symbols-outlined" style="color: var(--color-gold); font-size: 16px;">info</span>
+                Availability confirmed by salon staff
+              </span>
+</div>
+</div>
+</form>
+<div class="feedback-box" id="booking-feedback" style="display: none;">
+<span class="material-symbols-outlined" style="font-size: 28px;">verified</span>
+<span>Appointment request recorded! Our reception will dial or message you on WhatsApp shortly to lock in your slot.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. Interactive Masonry Gallery -->
+<section class="section-spacing" id="gallery" style="background: var(--color-surface-muted);">
+<div class="container">
+<div class="services-header-row">
+<div>
+<span class="section-eyebrow" style="color: var(--color-gold);">The ChiNel Aesthetic</span>
+<h2 class="section-title">Our Runway Gallery</h2>
+</div>
+<div class="gallery-filter-tabs" id="gallery-filters">
+<button class="filter-btn active" onclick="filterGallery('all')">All</button>
+<button class="filter-btn" onclick="filterGallery('hair')">Hair</button>
+<button class="filter-btn" onclick="filterGallery('braiding')">Braiding</button>
+<button class="filter-btn" onclick="filterGallery('nails')">Nails</button>
+<button class="filter-btn" onclick="filterGallery('barbering')">Barbering</button>
+<button class="filter-btn" onclick="filterGallery('interior')">Salon Interior</button>
+</div>
+</div>
+<div class="gallery-grid" id="gallery-items">
+<!-- Item 1: Hair Installation -->
+<div class="gallery-card hair">
+<img alt="Lustrous hair extension install" src="https://lh3.googleusercontent.com/aida/AEtjO1V6nnzaL0AddHdmbAZQV5CLMTl9xyLPyBtPrd8Hrv1n46nGo93oXlvPDmVxs-Re1FHbY1KGiyzRie_ZQuoAzptabzEd5VqrsvKE1mX-J7wN9d5Wx9KTZznZQAhRXyVWXkV75cxcj6YsCTDMJv6nKiVLUcksWLt9nhRGXNLbjT_Rvk9eruM44d8X1aXuPuosi03ougQPMZCkuSX0xHnZa4IRowtFl8EzeCFGWlY_x0BoGCPSqre91kn8cIM"/>
+<div class="gallery-overlay">
+<span class="overlay-category">Hair Installation</span>
+<h4 class="overlay-title">Flawless Lace Melt &amp; Silk Finish</h4>
+</div>
+</div>
+<!-- Item 2: Braids -->
+<div class="gallery-card braiding">
+<img alt="Patterned clean box braids" src="https://lh3.googleusercontent.com/aida/AEtjO1VxRKOJyrw3CCozwNLAwN9QZ3NmdeTlp0E7zuIDhtP6zHAALzSDW936H4wXOmiwmjPn5rtvmzg4fR75htgnoNE5_XjODbSOLjSXYEThGmBTOJyJsz-xVjfqyfdIoXwPAPH7QFMYSxEdu361i-CnyYx9o93LCe6rBPA5kG0u14i7UfHDb_yE0eZJN6gq4qkQOsoEGf459wjUP97BVLeRSg8DDp72ANHpi9J0kXAg5PUDr3jkEMmEX6ignA"/>
+<div class="gallery-overlay">
+<span class="overlay-category">Braiding</span>
+<h4 class="overlay-title">Ornate Protective Geometric Braids</h4>
+</div>
+</div>
+<!-- Item 3: Barbering -->
+<div class="gallery-card barbering">
+<img alt="Precision beard detailing" src="https://lh3.googleusercontent.com/aida/AEtjO1WTUFkfKJuU3oI88f_3s6kG_qfPRI6UdI1nYzHMdBidcGSp7qk8Lrzov8cAeG-4nSrRSY3IZ856M2GtftojfUhCY6JgRHvo9uaewAXk18x4aN2rtIxV7qqCTS__AbtFbqmGw6_3ngXdw1nYM9ngS7uCEarHSivPibMzrI8BP8JdEaKtcDILgNJ8pwyel6HztxyRwCH9q1IX3OqOWh6_ncrhGHxWBQ7pUfNx_oN3VAHLayHES4TKUArEdhA"/>
+<div class="gallery-overlay">
+<span class="overlay-category">Barbering</span>
+<h4 class="overlay-title">Precision Fade &amp; Beard Lineup</h4>
+</div>
+</div>
+<!-- Item 4: Nails -->
+<div class="gallery-card nails">
+<img alt="Freshly manicured almond nails" src="https://lh3.googleusercontent.com/aida/AEtjO1UA9XJITagKUtLyp2J5E8zBiq9GVeImlhsNS982C36-gE4jjZFjbXxE0f7H-6UhIOu7qBbnQ74vv4Acw8qObYZgJKNoaRqvbgDAehj9Bs1bfeUJFAcz6VTSBVz1F6LpSRhoxBKI3iYmK1Fc3EdKnbRW_g3d_h_0yHQHcYOvkuzPP8DGF8ziSo0ZQ8cLzqdEMprnclNfIlzbw74BjT6NdoPtpjEv3xfd3JCSVyQ6C16mOKeCtawcm5gYbtw"/>
+<div class="gallery-overlay">
+<span class="overlay-category">Nails</span>
+<h4 class="overlay-title">Couture Gel Extensions &amp; Hand Painted Florals</h4>
+</div>
+</div>
+<!-- Item 5: Salon Interior (Span 2) -->
+<div class="gallery-card interior span-2">
+<img alt="Panoramic luxury salon interior" src="https://lh3.googleusercontent.com/aida/AEtjO1UJ4lPwubYGg0vyzT10i239SBEA3iO7i8GBZNz6qrxEL5jF1ce8bKW8lgBJBC7zwnpNfQO7gme0NC9EBE9wzR29-ZeAUw3P1FFHh_N1CkRvTx5oWzveErxYlajaejAcP575uOPPOXcTZJ62SY12cjjJOUGFVnV6HCmdfveLe82Yh_aXn9RXnUdKOKQzfri4GexvahIwh98VTWKa4HBmsZ-3kErYrehS0alPOlFB6KfmvpGubKMbv1xPBQ"/>
+<div class="gallery-overlay">
+<span class="overlay-category">Salon Interior</span>
+<h4 class="overlay-title">The ChiNel Sanctuary Floor — Narayi Highcost</h4>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. Why Clients Choose ChiNel & Narayi Location Hub -->
+<section class="section-spacing" id="contact">
+<div class="container">
+<!-- Value Propositions Grid -->
+<div style="text-align: center; max-width: 680px; margin: 0 auto;">
+<span class="section-eyebrow">Our Core Standards</span>
+<h2 class="section-title">Why Clients Choose ChiNel Unisex Salon</h2>
+<p style="color: var(--color-text-muted);">We deliver an unhurried, hygienic, and elevated experience centered around your individual identity and style.</p>
+</div>
+<div class="value-props-grid">
+<div class="value-card">
+<span class="material-symbols-outlined value-icon" style="color: var(--color-magenta);">workspace_premium</span>
+<h4 class="value-title">Skilled Professionals</h4>
+<p class="value-desc">Continuous training in contemporary global cuts and runway techniques.</p>
+</div>
+<div class="value-card">
+<span class="material-symbols-outlined value-icon" style="color: var(--color-green);">air</span>
+<h4 class="value-title">Clean &amp; Comfortable</h4>
+<p class="value-desc">Fully climate-controlled sanctuary with hospital-grade sanitization.</p>
+</div>
+<div class="value-card">
+<span class="material-symbols-outlined value-icon" style="color: var(--color-gold);">group</span>
+<h4 class="value-title">Beauty for Everyone</h4>
+<p class="value-desc">Dedicated unisex zones designed for men, women, and youth alike.</p>
+</div>
+<div class="value-card">
+<span class="material-symbols-outlined value-icon" style="color: var(--color-magenta);">handshake</span>
+<h4 class="value-title">Customer-Focused</h4>
+<p class="value-desc">We listen intently and advise thoughtfully before every stroke of scissors.</p>
+</div>
+<div class="value-card">
+<span class="material-symbols-outlined value-icon" style="color: var(--color-gold);">near_me</span>
+<h4 class="value-title">Convenient Location</h4>
+<p class="value-desc">Easily accessible in Narayi Highcost with ample parking and security.</p>
+</div>
+</div>
+<!-- Location & Interactive Map Hub -->
+<div class="contact-layout-grid">
+<!-- Details Left -->
+<div class="contact-details-box">
+<div>
+<span class="section-eyebrow" style="color: var(--color-gold);">Visit Our Sanctuary</span>
+<h3 style="font-family: var(--font-display); font-size: clamp(1.4rem, 2.5vw, 1.8rem); color: #fff;">ChiNel Unisex Salon</h3>
+<div class="contact-info-list">
+<div class="contact-info-item">
+<span class="material-symbols-outlined" style="color: var(--color-gold); font-size: 26px; flex-shrink: 0;">location_on</span>
+<div>
+<span class="contact-info-title">Narayi Highcost Address</span>
+<span class="contact-info-text">Opposite Living Faith Church, Close to Ideal School, Narayi, Kaduna State, Nigeria</span>
+</div>
+</div>
+<div class="contact-info-item">
+<span class="material-symbols-outlined" style="color: var(--color-magenta); font-size: 26px; flex-shrink: 0;">schedule</span>
+<div>
+<span class="contact-info-title">Opening Hours</span>
+<span class="contact-info-text">Monday – Saturday: 8:00 AM – 8:00 PM<br/>Sunday: 1:00 PM – 7:00 PM</span>
+</div>
+</div>
+<div class="contact-info-item">
+<span class="material-symbols-outlined" style="color: var(--color-green); font-size: 26px; flex-shrink: 0;">call</span>
+<div>
+<span class="contact-info-title">Phone &amp; WhatsApp Hotline</span>
+<span style="font-size: 1.2rem; font-weight: 800; color: #fff;">0706655909</span>
+</div>
+</div>
+</div>
+</div>
+<div class="contact-cta-bar">
+<a class="btn-secondary" href="tel:0706655909" style="justify-content: center;">
+<span class="material-symbols-outlined">call</span>
+            Call Now
+          </a>
+<a class="btn-whatsapp-hotline" href="https://wa.me/234706655909" target="_blank">
+<span class="material-symbols-outlined">chat</span>
+            WhatsApp
+          </a>
+</div>
+</div>
+<!-- Interactive Map Container -->
+<div class="map-preview-box">
+<img alt="Map of Narayi Kaduna" class="map-bg-image" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3rKb_Yvmr9EgJ35n1xvTC5HwKPQ4WrE3nPggI8fk1KcE_7oR49bUA1icZKMcxX_YkFUagsX9xIuVekS2shEEbGOe5MmnNrQaqDqTpWHY9UA1WrwrLE7ORD62TeMkasqCw3WqFnRrseFmGKYBoFSOOnwzJdAZ36KtX3Di89Hj41JhPsuTo3CGLQKvSh-3sZV8a_TqS2tMruAAVDjFdOsfcz-OBaZNETy0hhPhFNWOUJiSPyZz-lFAT"/>
+<div class="map-overlay-layer"></div>
+<div class="map-floating-bar">
+<div style="display: flex; align-items: center; gap: 0.85rem;">
+<div style="width: 44px; height: 44px; border-radius: 50%; background: var(--color-magenta); color: #fff; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-glow); flex-shrink: 0;">
+<span class="material-symbols-outlined" style="font-size: 24px;">pin_drop</span>
+</div>
+<div>
+<h4 style="font-weight: 700; color: #fff;">Easily Found in Narayi</h4>
+<span style="font-size: 0.8rem; color: var(--color-text-muted);">Opposite Living Faith Church • Near Ideal School</span>
+</div>
+</div>
+<a class="btn-secondary" href="https://maps.google.com/?q=Narayi+Highcost+Kaduna" style="padding: 0.5rem 1rem; font-size: 0.85rem; min-height: 40px;" target="_blank">
+            Get Directions
+            <span class="material-symbols-outlined" style="font-size: 16px;">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Clean Semantic Footer -->
+<footer class="site-footer">
+<div class="container">
+<div class="footer-columns">
+<div>
+<div class="brand-logo-wrap" style="margin-bottom: 0.75rem;">
+<img alt="ChiNel Logo" class="brand-logo-img" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBaXR0Qyxq4xG9pdaRvADyzoKYcCVxmmUTz55dIpbwkRPNr5irxYzaZkRI8iAE3np8y5TDf3NwBqqVhtJiKBQNte3ovMcNYfYOWSCSZ2Qu_Tr2tHxNjuNekjaZeZyBbzdBaSVeipu7neP6XZapejxmNbbPPUBdq_You89TyjRFEX_WRtMBUHjL1W0sKpGai3Rov2SB_SmJjfYh2q0q3rMe8sc7gwWIG6CpQ3-Uihokg0lXyKdVJ4ozb"/>
+<span class="brand-title">ChiNel</span>
+</div>
+<p style="font-weight: 700; color: var(--color-gold); font-size: 0.95rem; margin-bottom: 0.75rem;">Look Good • Feel Good • Be You</p>
+<p style="font-size: 0.82rem; line-height: 1.6; color: var(--color-text-muted);">
+          Upscale unisex grooming and beauty sanctuary delivering precision barbering, couture hair styling, and state-of-the-art academy training in Kaduna.
+        </p>
+</div>
+<div>
+<h5 class="footer-col-title">Salon Location</h5>
+<ul class="footer-links-list">
+<li style="display: flex; gap: 0.5rem;">
+<span class="material-symbols-outlined" style="color: var(--color-gold); font-size: 18px; flex-shrink: 0;">location_on</span>
+<span>Narayi Highcost, Opposite Living Faith Church, Narayi, Kaduna State, Nigeria</span>
+</li>
+<li style="display: flex; gap: 0.5rem; margin-top: 0.5rem;">
+<span class="material-symbols-outlined" style="color: var(--color-gold); font-size: 18px; flex-shrink: 0;">schedule</span>
+<span>Mon - Sat: 8:00 AM - 8:00 PM<br/>Sun: 1:00 PM - 7:00 PM</span>
+</li>
+</ul>
+</div>
+<div>
+<h5 class="footer-col-title">Get In Touch</h5>
+<ul class="footer-links-list">
+<li>
+<a href="tel:0706655909" style="display: flex; align-items: center; gap: 0.5rem;">
+<span class="material-symbols-outlined" style="color: var(--color-magenta); font-size: 18px;">call</span>
+              0706655909
+            </a>
+</li>
+<li>
+<a href="https://wa.me/234706655909" style="display: flex; align-items: center; gap: 0.5rem;" target="_blank">
+<span class="material-symbols-outlined" style="color: var(--color-green); font-size: 18px;">chat</span>
+              WhatsApp Direct
+            </a>
+</li>
+<li>
+<a href="mailto:info@chinelsalon.com" style="display: flex; align-items: center; gap: 0.5rem;">
+<span class="material-symbols-outlined" style="color: var(--color-magenta); font-size: 18px;">mail</span>
+              info@chinelsalon.com
+            </a>
+</li>
+</ul>
+</div>
+<div>
+<h5 class="footer-col-title">Connect With Us</h5>
+<p style="font-size: 0.82rem; margin-bottom: 0.75rem;">Follow our transformations, runway trends, and masterclasses across our channels.</p>
+<div class="social-icons-row">
+<a aria-label="Instagram" class="social-btn" href="#"><span class="material-symbols-outlined">photo_camera</span></a>
+<a aria-label="Facebook" class="social-btn" href="#"><span class="material-symbols-outlined">public</span></a>
+<a aria-label="TikTok" class="social-btn" href="#"><span class="material-symbols-outlined">videocam</span></a>
+<a aria-label="YouTube" class="social-btn" href="#"><span class="material-symbols-outlined">smart_display</span></a>
+</div>
+</div>
+</div>
+<div class="footer-bottom-row">
+<p>© 2026 ChiNel Unisex Salon &amp; Academy. All rights reserved.</p>
+<div style="display: flex; gap: 1.5rem; flex-wrap: wrap;">
+<a href="#">Privacy Policy</a>
+<a href="#">Terms of Service</a>
+<a href="#training" style="color: var(--color-gold);">Enroll in Academy</a>
+</div>
+</div>
+</div>
+</footer>
+<!-- Interactive JavaScript -->
+<script>
+    // Mobile navigation toggle and drawer controls
+    const navToggle = document.getElementById('nav-toggle');
+    const mainNav = document.getElementById('main-navigation');
+    const drawerOverlay = document.getElementById('drawer-overlay');
+    const menuIcon = document.getElementById('menu-icon');
+
+    function toggleMobileNav() {
+      if (!mainNav) return;
+      const isOpen = mainNav.classList.toggle('mobile-open');
+      if (drawerOverlay) drawerOverlay.classList.toggle('active', isOpen);
+      if (menuIcon) menuIcon.textContent = isOpen ? 'close' : 'menu';
+      if (navToggle) navToggle.setAttribute('aria-expanded', isOpen);
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    }
+
+    function closeMobileNav() {
+      if (mainNav && mainNav.classList.contains('mobile-open')) {
+        mainNav.classList.remove('mobile-open');
+        if (drawerOverlay) drawerOverlay.classList.remove('active');
+        if (menuIcon) menuIcon.textContent = 'menu';
+        if (navToggle) navToggle.setAttribute('aria-expanded', 'false');
+        document.body.style.overflow = '';
+      }
+    }
+
+    if (navToggle) {
+      navToggle.addEventListener('click', toggleMobileNav);
+    }
+
+    // Close mobile nav on resize above breakpoint
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 900) {
+        closeMobileNav();
+      }
+    });
+
+    // Live Countdown Timer logic
+    (function initCountdown() {
+      const targetDate = new Date();
+      targetDate.setDate(targetDate.getDate() + 7);
+      targetDate.setHours(targetDate.getHours() + 22);
+      targetDate.setMinutes(targetDate.getMinutes() + 59);
+
+      function updateTimer() {
+        const now = new Date().getTime();
+        const difference = targetDate - now;
+
+        if (difference <= 0) return;
+
+        const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+
+        const elDays = document.getElementById('cd-days');
+        const elHours = document.getElementById('cd-hours');
+        const elMinutes = document.getElementById('cd-minutes');
+        const elSeconds = document.getElementById('cd-seconds');
+
+        if (elDays) elDays.textContent = String(days).padStart(2, '0');
+        if (elHours) elHours.textContent = String(hours).padStart(2, '0');
+        if (elMinutes) elMinutes.textContent = String(minutes).padStart(2, '0');
+        if (elSeconds) elSeconds.textContent = String(seconds).padStart(2, '0');
+      }
+
+      setInterval(updateTimer, 1000);
+      updateTimer();
+    })();
+
+    // Gallery Filtering
+    function filterGallery(category) {
+      const items = document.querySelectorAll('.gallery-card');
+      const buttons = document.querySelectorAll('#gallery-filters .filter-btn');
+
+      buttons.forEach(btn => btn.classList.remove('active'));
+      if (window.event && window.event.currentTarget) {
+        window.event.currentTarget.classList.add('active');
+      }
+
+      items.forEach(item => {
+        if (category === 'all' || item.classList.contains(category)) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    // Direct Service selector in appointment form
+    function selectServiceInForm(serviceName) {
+      const select = document.getElementById('book-service');
+      if (select) {
+        select.value = serviceName;
+      }
+    }
+
+    // Academy track trigger & scroll
+    function selectAcademyTrack(trackName) {
+      const trackSelect = document.getElementById('train-track');
+      if (trackSelect) {
+        trackSelect.value = trackName;
+      }
+      const formEl = document.getElementById('training-enquiry-form');
+      if (formEl) {
+        formEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }
+
+    // Training Submission Feedback
+    function handleTrainingSubmit(e) {
+      e.preventDefault();
+      const phoneVal = document.getElementById('train-whatsapp').value || document.getElementById('train-phone').value;
+      const feedbackPhone = document.getElementById('feedback-phone');
+      const feedbackBox = document.getElementById('training-feedback');
+      const submitBtn = document.getElementById('training-submit-btn');
+
+      if (feedbackPhone) feedbackPhone.textContent = phoneVal;
+      if (feedbackBox) feedbackBox.style.display = 'flex';
+      if (submitBtn) {
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<span class="material-symbols-outlined">check</span> Enquiry Sent';
+      }
+    }
+
+    // Appointment Submission Feedback
+    function handleAppointmentSubmit(e) {
+      e.preventDefault();
+      const feedbackBox = document.getElementById('booking-feedback');
+      if (feedbackBox) feedbackBox.style.display = 'flex';
+    }
+  </script>
+</body></html>
